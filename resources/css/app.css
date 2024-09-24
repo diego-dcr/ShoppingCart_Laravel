@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #353C59;
+    --primary-color-light: #4A5174; 
+}
+
+.login, .nav, .title, .count{
+    background-color: var(--primary-color);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.link-primary {
+    color: var(--primary-color);
+}
+
+.link-primary:hover {
+    color: var(--primary-color-light);
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+}
+
+.primary-button:hover {
+    background-color: var(--primary-color-light);
+}
